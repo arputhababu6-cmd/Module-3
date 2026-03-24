@@ -17,10 +17,15 @@ To write a Python program that accepts a string and removes the character at a s
 ## 💻 Program
 def remove(input_string):
     n = int(input("Enter the index to remove: "))
+    
     a = ""
+    
     for i in range(len(input_string)):
+    
         if i != n:
+        
             a += input_string[i]
+            
     return a
 
 test_string = input("Enter a string: ")
